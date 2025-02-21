@@ -2,7 +2,7 @@ const btn = document.getElementById("btn");
 const h4Text = document.getElementById("texH");
 
 function getColor() {
-  const colorCode = "0123456789ABCDEF";
+  let colorCode = "0123456789ABCDEF";
   let hexColor = "#";
 
   for (let i = 0; i < 6; i++) {
