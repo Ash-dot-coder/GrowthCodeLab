@@ -138,4 +138,3 @@ Once you're confident in DOM manipulation, consider learning:
 
 ### **🔥 Ready to start? Pick a project and begin coding today! 🚀**  
 ### **🐱‍🏍 Happy Coding 👨‍💻**
-
