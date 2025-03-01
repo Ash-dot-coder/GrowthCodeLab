@@ -3,7 +3,7 @@
 const changeBg = document.querySelectorAll(".changeBg");
 const btn = document.querySelector("#btn");
 const nline = document.getElementsByTagName("li");
-const ul = document.getElementsByTagName("ul")[0];
+// const ul = document.getElementsByTagName("ul")[0];
 const container = document.getElementById("container");
 
 document.body.style.backgroundColor = "wheat";
