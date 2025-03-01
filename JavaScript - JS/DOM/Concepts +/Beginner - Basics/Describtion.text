@@ -1,17 +1,24 @@
 Level 1: Beginner (Understanding the Basics)
 Focus on understanding the DOM structure, selecting elements, and performing basic manipulations.
 
-
-
 Concepts to Learn:
-What is the DOM?
+1. What is the DOM?
+2. Selecting elements (getElementById, querySelector, querySelectorAll, etc.).
+3. Manipulating element content (innerHTML, textContent, innerText).
+4. Changing styles (style property).
+5. Adding/removing classes (classList.add, classList.remove, classList.toggle).
+6. Basic event handling (addEventListener).
 
-Selecting elements (getElementById, querySelector, querySelectorAll, etc.).
+Practice Problems:
+1. Select an element by its ID and change its text content.
+2. Select all elements with a specific class and change their background color.
+3. Create a button that changes the text of a paragraph when clicked.
+4. Toggle the visibility of an element (hide/show) using a button.
+5. Add a class to an element when a button is clicked.
+6. Change the font size of all paragraphs on the page using a button.
 
-Manipulating element content (innerHTML, textContent, innerText).
+Daily Challenges:
+Day 1: Create a button that changes the background color of the page.
+Day 2: Build a toggle button that switches between light and dark themes.
+Day 3: Create a list of items and add a button to remove the last item.
 
-Changing styles (style property).
-
-Adding/removing classes (classList.add, classList.remove, classList.toggle).
-
-Basic event handling (addEventListener).
