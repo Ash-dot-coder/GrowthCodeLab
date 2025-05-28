@@ -3,6 +3,6 @@
 // console.log(getElement(numbers, 4))
 
 // Exercise
-const dost = ['Kartik', 'Lucky', 'Mane', 'AnkurBhaiya', 'Feeling'];
+const dost = ['Kartik', 'Lucky', 'Mane', 'AnkurBhaiya', 'Air','Feeling'];
 const getDostElement = (arr, index) => arr[index];
 console.log(getDostElement(dost, 4));
