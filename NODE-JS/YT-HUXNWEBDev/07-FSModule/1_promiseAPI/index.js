@@ -2,12 +2,12 @@
 import * as fs from "fs/promises";
 
 // Creating Directory - Path should be there. 🥂
-try {
-    await fs.mkdir("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs");
-    console.log("Directory Created ...");
-} catch (error) {
-console.log(error);
-}
+// // try {
+// //     await fs.mkdir("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs");
+// //     console.log("Directory Created ...");
+// // } catch (error) {
+// // console.log(error);
+// }
 
 // // Path is not requried 🥂
 // try {
@@ -96,3 +96,15 @@ console.log(error);
 // } catch (error) {
 // console.log(error);
 // }
+
+
+// Removed All : Readme and CopyInfo 🥂
+try {
+    await Promise.all([
+            fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/copyInfo.txt"),
+            fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/readme.md")
+        ]);
+    console.log("CopyInfo & Readme File Removed!");
+} catch (error) {
+console.log(error);
+}
