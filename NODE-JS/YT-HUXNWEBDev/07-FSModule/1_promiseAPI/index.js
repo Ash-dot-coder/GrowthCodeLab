@@ -1,7 +1,7 @@
 // FS Promise API
 import * as fs from "fs/promises";
 
-// Creating Directory - Path should be there. 🥂
+// 1. Creating Directory - Path should be there. 🥂
 // // try {
 // //     await fs.mkdir("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs");
 // //     console.log("Directory Created ...");
@@ -9,7 +9,7 @@ import * as fs from "fs/promises";
 // // console.log(error);
 // }
 
-// // Path is not requried 🥂
+// 2. Path is not requried 🥂
 // try {
 //     await fs.mkdir("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/index", {recursive: true})
 //     console.log("Directory Created ...");
@@ -17,7 +17,7 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Read content of directory 🥂
+// 3. Read content of directory 🥂
 // try {
 //     const files = await fs.readdir("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/index")
 //     for(let file of files){
@@ -27,17 +27,17 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Remove File 🥂
+// 4. Remove File 🥂
 // try {
-//     await fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/index/hey.txt")
+//     await fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/copyInfo.txt")
 //     console.log("File Removed ...");
 // } catch (error) {
 // console.log(error);
 // }
 
-// Remove Directory 🥂
+// 5. Remove Directory 🥂
 // try {
-//     await fs.rm("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/index", {
+//     await fs.rm("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs", {
 //             recursive:true,
 //             force: true
 //         });
@@ -46,7 +46,7 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Create and Write file 😊
+// 6. Create and Write file 😊
 // try {
 //     await fs.writeFile("readme.md", "Hey NodeJs :)");
 //     console.log("Readme file written..");
@@ -55,7 +55,7 @@ import * as fs from "fs/promises";
 // }
 
     
-// Read File 😊
+// 7. Read File 😊
 // try {
 //     const data = await fs.readFile("readme.md");
 //     console.log(data);  //  returns buffer⚠️
@@ -70,7 +70,7 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Append Data Into File
+// 8. Append Data Into File
 // try {
 //     await fs.appendFile("readme.md", "Hey Ash!");
 //     console.log("File Appended ..");
@@ -78,7 +78,7 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Copy File 😊
+// 9. Copy File 😊
 // try {
 //     await fs.copyFile("readme.md", "C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/copyInfo.txt")
 //     await fs.copyFile("readme.md", "copyInfo.txt");
@@ -87,24 +87,24 @@ import * as fs from "fs/promises";
 // console.log(error);
 // }
 
-// Get File Information 😊
-// try {
-//     const info = await fs.stat("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/fs/copyInfo.txt");
-//     console.log(info);  //  returns object
-//     console.log("Is Directory: " + info.isDirectory());
-//     console.log("Is File: " + info.isFile());
-// } catch (error) {
-// console.log(error);
-// }
-
-
-// Removed All : Readme and CopyInfo 🥂
+// 10. Get File Information 😊
 try {
-    await Promise.all([
-            fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/copyInfo.txt"),
-            fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/readme.md")
-        ]);
-    console.log("CopyInfo & Readme File Removed!");
+    const info = await fs.stat("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/index.js");
+    console.log(info);  //  returns object
+    console.log("Is Directory: " + info.isDirectory());
+    console.log("Is File: " + info.isFile());
 } catch (error) {
 console.log(error);
 }
+
+
+// 11. Removed All : Readme and CopyInfo 🥂
+// try {
+//     await Promise.all([
+//             fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/copyInfo.txt"),
+//             // fs.unlink("C:/Geekster - Practice/OWN-Practice/node-js/yt-huxnwebdev/07-fsmodule/1_promiseapi/readme.md")
+//         ]);
+//     console.log("CopyInfo & Readme File Removed!");
+// } catch (error) {
+// console.log(error);
+// }
