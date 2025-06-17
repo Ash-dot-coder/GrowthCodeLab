@@ -66,24 +66,24 @@ import * as fs from "fs";
 // });
 
 // 9. Get File Information : "stat"
-// fs.stat("info.txt", (error, stats) => {
-//   if (error) throw error;
-//   console.log("isDirectory: " + stats.isDirectory());
-//   console.log("isFile: " + stats.isFile());
-// });
-
-// 10.
-const fileToDelete = [
-  "C:\\Geekster - Practice\\OWN-Practice\\node-js\\yt-huxnwebdev\\07-fsmodule\\2_callbackAPI\\info.txt",
-  "C:\\Geekster - Practice\\OWN-Practice\\node-js\\yt-huxnwebdev\\07-fsmodule\\2_callbackAPI\\readme.txt",
-];
-
-fileToDelete.forEach((filePath) => {
-  fs.unlink(filePath, (err) => {
-    if (err) {
-      console.error(`Error deleting ${filePath}:`, err.message);
-    } else {
-      console.log(`Successfully deleted: ${filePath}`);
-    }
-  });
+fs.stat("index.js", (error, stats) => {
+  if (error) throw error;
+  console.log("isDirectory: " + stats.isDirectory());
+  console.log("isFile: " + stats.isFile());
 });
+
+// 10. Remove files: "unlink" - forEach(If array based)
+// const fileToDelete = [
+//   "C:\\Geekster - Practice\\OWN-Practice\\node-js\\yt-huxnwebdev\\07-fsmodule\\2_callbackAPI\\info.txt",
+//   "C:\\Geekster - Practice\\OWN-Practice\\node-js\\yt-huxnwebdev\\07-fsmodule\\2_callbackAPI\\readme.txt",
+// ];
+
+// fileToDelete.forEach((filePath) => {
+//   fs.unlink(filePath, (err) => {
+//     if (err) {
+//       console.error(`Error deleting ${filePath}:`, err.message);
+//     } else {
+//       console.log(`Successfully deleted: ${filePath}`);
+//     }
+//   });
+// });
