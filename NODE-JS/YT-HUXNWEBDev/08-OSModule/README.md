@@ -105,6 +105,15 @@ node index.js
 ```
 ---
 
+## 🧠 Learnings
+
+- How to use Node.js built-in modules (`os`)
+- How to style terminal output with `chalk`
+- Adding CLI interactivity with `ora`
+- Using modern ES module syntax
+
+---
+
 ## 📁 File Structure
 
 ```
