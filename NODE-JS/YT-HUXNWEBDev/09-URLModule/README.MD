@@ -86,22 +86,37 @@ The `url` module in Node.js provides utilities for URL resolution and parsing. I
 
 ## 🛠️ How to Run
 
-Make sure you're using Node.js v14+ with ES Modules enabled:
+Make sure you're using **Node.js v14+** and your environment supports **ES Modules**.
 
-### Step 1: `package.json`
+---
+
+### ✅ Step 1: Initialize the project
+
+Create a `package.json` file using the command:
+
+```bash
+npm init -y
+```
+
+---
+
+### ✅ Step 2: Enable ES Modules
+
+Add the following in your `package.json` to enable ESM syntax like `import`:
+
 ```json
 {
   "type": "module"
 }
 ```
-### Step 2: Initialize the project
 
-Use the following command to create a `package.json` file (required for ESM):
+---
 
-### Step 3: Run the file
+### ✅ Step 3: Run the file
+
+Use the following command to execute your script:
 
 ```bash
-npm init -y
 node index.js
 ```
 
