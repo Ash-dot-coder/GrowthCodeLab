@@ -1,0 +1,6 @@
+This is Ayush Kohre's test file.
+
+Used for:
+- Demonstrating blocking (sync) vs non-blocking (async) file reads.
+- Practicing the fs module in Node.js.
+- Understanding the event loop in JavaScript.
