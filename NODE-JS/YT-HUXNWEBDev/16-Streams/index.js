@@ -20,8 +20,9 @@ import { createReadStream } from "fs";
 const stream = createReadStream("./test.txt", { encoding: "utf8" });
 
 stream.on("data", (data) => {
+  //   log is the shortcut of console.log()
+  log("Done ✔");
   log(data);
-  log("Done ✔")
 });
 
 // 👇 We also have "error" event, which will fire if we have error
