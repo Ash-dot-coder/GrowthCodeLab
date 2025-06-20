@@ -115,7 +115,7 @@ Building foundations strong 💪
 
 ---
 
-## ✨ BONUS: `index.js` with Explanation Comments
+## 📌 Bonus: Full Code with Comments (For Learning)
 
 ```js
 const EventEmitter = require("events"); // Import EventEmitter class from Node.js
