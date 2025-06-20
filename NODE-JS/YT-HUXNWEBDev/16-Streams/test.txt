@@ -1,0 +1,17 @@
+Node.js Streams are a powerful mechanism to work with large data efficiently.
+
+Instead of reading or writing the entire data at once (which can crash memory if the file is large), streams break it down into chunks and process each chunk one at a time.
+
+There are four types of streams in Node.js:
+1. Readable - to read data from a source.
+2. Writable - to write data to a destination.
+3. Duplex - for both reading and writing (like a TCP socket).
+4. Transform - a duplex stream that can modify or transform the data as it is written or read (like zlib compression).
+
+Streams also support piping — which allows data from a readable stream to flow into a writable stream automatically.
+
+Using the 'highWaterMark' option, we can control the buffer size (chunk size) being read or written.
+
+This mechanism makes Node.js especially suitable for handling file I/O, large logs, streaming videos, and network communication.
+
+Learning streams = unlocking real-world Node.js power 💪
