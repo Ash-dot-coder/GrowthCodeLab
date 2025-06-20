@@ -244,7 +244,7 @@ NODE-JS/
     ├── 13-NPM/                 # Package management using NPM
     ├── 14-BTS/                 # Behind-the-scenes: event loop, Libuv, etc.
     ├── 15-Events/              # EventEmitter and event-driven programming
-    └── 16-Streams/             # Reading/writing large data using streams
+    ├── 16-Streams/             # Reading/writing large data using streams
     └── README.md               ✅ Master Readme (you already got it)
 
 ```
