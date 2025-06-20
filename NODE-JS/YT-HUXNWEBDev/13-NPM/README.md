@@ -187,6 +187,39 @@ nodemon index.js
 
 ---
 
+#### 📂 File: `index.js`
+
+This file is shows:
+
+* Read the `package.json` file using Node's built-in `fs` module
+* Parse the metadata (name, version, description, author, dependencies)
+* Display the info as a CLI output
+* Acts as a starting point to understand how CLI tools fetch project metadata
+
+> Run it using:
+
+```bash
+node index.js
+```
+
+You’ll see something like:
+
+```
+📦 Project Metadata from package.json
+
+🧾 Name        : npm-practice
+📌 Version     : 1.0.0
+📝 Description : Not provided
+👤 Author      : Not provided
+
+📦 Dependencies:
+   - nodemon : ^3.1.10
+
+✅ Done!
+```
+
+---
+
 ## 🤓 Author
 
 **Ayush Kohre**
