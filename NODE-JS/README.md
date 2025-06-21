@@ -1,1 +1,1 @@
-![NODE-JS](./Assets/Images/NODEJS.jpg)
+![NODE-JS](./Assets/Images/NODEJS.png)
