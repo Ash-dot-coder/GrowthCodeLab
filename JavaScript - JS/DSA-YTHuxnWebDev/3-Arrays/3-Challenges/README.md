@@ -136,9 +136,9 @@ Welcome to the **DSA - Arrays Challenges Repository**. This repository contains 
 ## 🧑‍💻 Author
 
 **Ayush Kohre**  
-🔗 GitHub: [@ash-dot-coder](https://github.com/ash-dot-coder)  
-📘 Reference: [Huxn Webdev](https://www.youtube.com/@HUXNWEBDEV)
-📋 GrowthCodeLab DSA - JS Track
+- 🔗 GitHub: [@ash-dot-coder](https://github.com/ash-dot-coder)  
+- 📘 Reference: [Huxn Webdev](https://www.youtube.com/@HUXNWEBDEV) 
+- 📋 GrowthCodeLab DSA - JS Track
 
 ---
 
