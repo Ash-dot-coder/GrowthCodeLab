@@ -1,5 +1,7 @@
 # 🚀 GrowthCodeLab
 
+![MERN-Thumb](MERNThumb.png)
+
 Welcome to **GrowthCodeLab** – my personal coding lab for continuous self-improvement!  
 This repository is a collection of my hands-on projects, practice tasks, and daily grind toward becoming a full-stack developer. 💻🔥
 
