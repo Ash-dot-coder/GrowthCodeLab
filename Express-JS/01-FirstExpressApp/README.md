@@ -1,4 +1,4 @@
-# 🚀 01 First Express App
+# 🚀 First Express App
 
 This is the most basic Express.js server setup that returns a simple `"Hello World"` response for all routes. It's the ideal starting point for understanding how to build Node.js web servers using Express.
 
