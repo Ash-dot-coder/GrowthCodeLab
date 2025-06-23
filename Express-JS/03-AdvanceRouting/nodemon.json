@@ -1,0 +1,9 @@
+{
+  "watch": ["index.js"],
+  "ext": "js",
+  "ignore": [
+    "C:/DumpStack.log.tmp",
+    "C:/pagefile.sys",
+    "C:/swapfile.sys"
+  ]
+}
