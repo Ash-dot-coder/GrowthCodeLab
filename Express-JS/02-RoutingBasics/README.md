@@ -10,10 +10,10 @@ This is a beginner-friendly Express.js app to understand how **routing works** i
 
 express-js/
 └── 02-routingbasics/
-    ├── index.js             # Main server file
-    ├── package.json         # Project scripts and dependencies
-    ├── nodemon.json         # Optional: Nodemon config to avoid common issues
-    └── README.md            # Project documentation (this file)
+    ├── index.js             # Main Express server file
+    ├── package.json         # Project dependencies & scripts (declared)
+    ├── package-lock.json    # Locks the exact version of each package
+    └── README.md            # Project explanation and documentation
 
 ```
 
