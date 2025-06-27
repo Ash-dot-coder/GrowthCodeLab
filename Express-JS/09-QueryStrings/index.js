@@ -20,7 +20,9 @@ const app = express();
 // Multiple Query String
 app.get("/product", (req, res) => {
   const { category, id } = req.query;
+  console.log(`${req.query.category}: ${req.query.id}`);
   res.send(`Product Category ${category} & Product ID: ${id}`);
 });
+// How to link: http://localhost:9009/product?category=shoes&id=23
 
 app.listen(9009, () => console.log("Server UP on http://localhost/9009"));
