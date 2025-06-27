@@ -267,6 +267,7 @@ Backend Developer | API Learner | Full-Stack Explorer
 * [Express Routing](https://expressjs.com/en/guide/routing.html)
 * [Postman Docs](https://learning.postman.com/docs/)
 * [MDN HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+  **Optional**
 * [MDN HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD)
 * [MDN OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
 
