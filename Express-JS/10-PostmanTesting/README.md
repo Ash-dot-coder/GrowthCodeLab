@@ -1,14 +1,3 @@
-Absolutely Ayush! Here's your **professionally structured**, **deeply explained**, and **visually organized** `README.md` for the `10-PostmanTesting` project — including:
-
-* `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, `HEAD`, `OPTIONS`
-* Postman usage with examples
-* Full explanation of **why we use each HTTP method**
-* ✅ Cheat Sheet + Summary
-* 🎯 “What You Learn” section
-
----
-
-```markdown
 # 🚀 Postman API Testing with Express.js  
 ## 🎯 Project Name: **Postman Testing**
 
@@ -30,7 +19,7 @@ This hands-on project makes API testing easier to understand for beginners and d
 ```
 
 10-PostmanTesting/
-├── node\_modules/       # 📦 Auto-generated dependencies
+├── node_modules/       # 📦 Auto-generated dependencies
 ├── index.js            # 🚀 All HTTP routes implemented here
 ├── nodemon.json        # 🔁 Nodemon config for auto reload
 ├── package.json        # 📜 Project metadata + start/dev scripts
@@ -38,7 +27,7 @@ This hands-on project makes API testing easier to understand for beginners and d
 ├── .gitignore          # 🛑 Git ignore settings
 └── readme.md           # 📘 This file with all explanations
 
-````
+```
 
 > ⚠️ `node_modules/` is ignored via `.gitignore`.
 
@@ -50,7 +39,7 @@ This hands-on project makes API testing easier to understand for beginners and d
 
 ```bash
 npm init -y
-````
+```
 
 ### Step 2: Install Required Packages
 
@@ -267,7 +256,6 @@ Backend Developer | API Learner | Full-Stack Explorer
 * [Express Routing](https://expressjs.com/en/guide/routing.html)
 * [Postman Docs](https://learning.postman.com/docs/)
 * [MDN HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-  **Optional**
 * [MDN HEAD](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD)
 * [MDN OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
 
