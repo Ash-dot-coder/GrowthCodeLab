@@ -214,12 +214,12 @@ export { allStudents, newStudent, updateStudent, deleteStudent };
 
 ---
 
-## 🔗 Useful Resources
+## 📢 Final Note
 
-* [Express Routing Docs](https://expressjs.com/en/guide/routing.html)
-* [Node.js Docs](https://nodejs.org/en/docs/)
-* [Postman Docs](https://learning.postman.com/docs/getting-started/introduction/)
-* [MVC Pattern for Beginners](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+This modular structure is the foundation for building scalable Express applications.  
+Once you’re comfortable with this, you can explore adding **models**, **middleware**, and even connecting to **databases**!
+
+Keep exploring — one concept at a time! 🚀
 
 ---
 
@@ -232,11 +232,11 @@ Striving for backend mastery with real-world architecture and clean modular code
 
 ---
 
-## 📢 Final Note
+## 🔗 Useful Resources
 
-This modular structure is the foundation for building scalable Express applications.  
-Once you’re comfortable with this, you can explore adding **models**, **middleware**, and even connecting to **databases**!
-
-Keep exploring — one concept at a time! 🚀
+* [Express Routing Docs](https://expressjs.com/en/guide/routing.html)
+* [Node.js Docs](https://nodejs.org/en/docs/)
+* [Postman Docs](https://learning.postman.com/docs/getting-started/introduction/)
+* [MVC Pattern for Beginners](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 
 ---
