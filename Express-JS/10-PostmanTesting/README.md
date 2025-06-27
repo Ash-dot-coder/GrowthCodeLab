@@ -1,5 +1,5 @@
-# 🚀 Postman API Testing with Express.js  
-## 🎯 Project Name: **Postman Testing**
+# 🚀 Postman Testing with Express.js  
+## 🎯 **Postman API Testing**
 
 This project is a practical playground for testing **all essential HTTP methods** using **Express.js** and **Postman**.
 
