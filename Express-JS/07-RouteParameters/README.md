@@ -230,19 +230,19 @@ app.get("/user/:id", (req, res) => {
 
 ---
 
-## 📘 Useful Docs
-
-* [Express Route Params](https://expressjs.com/en/guide/routing.html)
-* [Postman Docs](https://learning.postman.com/docs/getting-started/introduction/)
-* [Node.js Docs](https://nodejs.org/en/docs/)
-
----
-
 ## 🧑‍💻 Author
 
 **Ayush Kohre**
 Building backend logic from scratch & exploring real-world Express.js usage.
 
 > 💻 Postman ✅ | Express.js ✅ | Node.js ✅ | Routing Ninja Mode ⚔️
+
+---
+
+## 📘 Useful Docs
+
+* [Express Route Params](https://expressjs.com/en/guide/routing.html)
+* [Postman Docs](https://learning.postman.com/docs/getting-started/introduction/)
+* [Node.js Docs](https://nodejs.org/en/docs/)
 
 ---
