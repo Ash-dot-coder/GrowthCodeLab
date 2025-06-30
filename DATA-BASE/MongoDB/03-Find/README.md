@@ -2,7 +2,7 @@
 
 > A beginner-friendly MongoDB reference focused specifically on **data retrieval (finding documents)**, extracted from the `03-Find / f.txt` file.
 
-This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/main/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
+This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
 
 ---
 
