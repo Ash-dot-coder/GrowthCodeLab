@@ -1,0 +1,6 @@
+db.animeCharacters.find()	👉🏻 (All Data)
+db.animeCharacters.find({"name": "Monkey D. Luffy"})	👉🏻 (Character with the name Luffy)
+db.animeCharacters.find({"name": "Naruto Uzumaki", "age": 33})	👉🏻 (Character with the name Naruto Uzumaki & age 33)
+db.animeCharacters.find({"name": "Monkey D. Luffy"}, {"name": 1})	👉🏻 (Just give me the "NAME" of the character [nothing else])
+db.animeCharacters.find({"name": "Naruto Uzumaki"}, {"name": 0})	👉🏻 (Give me everything BUT the name)
+db.animeCharacters.find({}, {"name": 1})	👉🏻 (Give me all the documents with just their NAMES)

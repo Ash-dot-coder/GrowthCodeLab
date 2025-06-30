@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Monkey D. Luffy",
+    "anime": "One Piece",
+    "age": 19,
+    "affiliation": "Straw Hat Pirates",
+    "power": "Gomu Gomu no Mi (Rubber powers)",
+    "bounty": 3000000000,
+    "status": "Alive"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "anime": "Naruto",
+    "age": 33,
+    "affiliation": "Hidden Leaf Village",
+    "power": "Kurama (Nine-Tails), Sage Mode",
+    "bounty": null,
+    "status": "Hokage"
+  },
+  {
+    "name": "Goku",
+    "anime": "Dragon Ball",
+    "age": 48,
+    "affiliation": "Z Fighters",
+    "power": "Super Saiyan, Ultra Instinct",
+    "bounty": null,
+    "status": "Alive"
+  },
+  {
+    "name": "Levi Ackerman",
+    "anime": "Attack on Titan",
+    "age": 35,
+    "affiliation": "Survey Corps",
+    "power": "Ackerman Bloodline (Superhuman strength & reflexes)",
+    "bounty": null,
+    "status": "Alive"
+  },
+  {
+    "name": "Light Yagami",
+    "anime": "Death Note",
+    "age": 23,
+    "affiliation": "Kira",
+    "power": "Death Note",
+    "bounty": null,
+    "status": "Deceased"
+  }
+]
