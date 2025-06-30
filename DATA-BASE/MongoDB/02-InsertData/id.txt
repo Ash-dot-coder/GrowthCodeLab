@@ -1,0 +1,4 @@
+catNames = {"name": "Milishaa", age: 3}
+db.cat.insertOne(catNames)
+
+db.catNames.find()
