@@ -1,0 +1,4 @@
+1. show dbs 👉🏻 (Show all the Database)
+2. db.getName() 👉🏻 (Shows current active Database)
+3. db.collectionName.insertOne({}) 👉🏻 (This is how we can create empty collection)
+4. show collections 👉🏻 (Show all the collections)
