@@ -2,7 +2,7 @@
 
 > A beginner-focused guide demonstrating **how to insert documents into a MongoDB collection** and retrieve them using simple shell commands — extracted from the `02-InsertData / id.txt` file.
 
-This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/main/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
+This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
 
 ---
 
