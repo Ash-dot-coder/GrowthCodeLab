@@ -1,6 +1,6 @@
 # 📘 MongoDB Basics — `01-CollectionInfo[ci.txt]`
 
-> A quick and beginner-friendly command reference focused purely on **MongoDB collection operations**, extracted from the `01-CollectionInfo.txt` file.
+> A quick and beginner-friendly command reference focused purely on **MongoDB collection operations**, extracted from the `01-CollectionInfo / ci.txt` file.
 
 This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/main/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
 
@@ -14,9 +14,38 @@ This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/
 
 ---
 
+## ⚙️ How to Run These Commands
+
+> These MongoDB commands are meant to be executed inside the **`mongosh` shell**.
+
+### 🔽 Step-by-Step:
+
+1. **Open your terminal (Command Prompt, Git Bash, etc.)**
+2. Run:
+   ```bash
+   mongosh
+```
+
+3. You’ll enter the MongoDB shell (indicated by a `>` prompt).
+   From here, you can start running the commands from `ci.txt`.
+
+✅ Example:
+
+```bash
+> show dbs
+> use testDB
+> db.students.insertOne({ name: "Ayush" })
+> show collections
+```
+
+📌 *Make sure MongoDB is installed and the service is running locally.*
+
+---
+
 ## 🛠️ Commands with Explanation
 
-### 1. `show dbs`  
+### 1. `show dbs`
+
 > 🔍 Lists all available databases stored in your local MongoDB server.
 
 ```bash
@@ -85,13 +114,12 @@ show collections
 This file lives in:
 
 ```
-GrowthCodeLab/
-└── DATA-BASE/
-    └── MongoDB/
-        ├── 01-CollectionInfo/
-        │   ├── ci.txt           ← command source
-        │   └── README.md        ← documentation
-        └── README.md            ← general MongoDB overview
+DATA-BASE/
+└── MongoDB/
+    ├── 01-CollectionInfo/
+    │   ├── ci.txt           ← command source
+    │   └── README.md        ← documentation
+    └── README.md            ← general MongoDB overview
 ```
 
 ---
