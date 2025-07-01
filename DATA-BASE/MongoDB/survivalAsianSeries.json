@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Squid Game",
+    "origin": "South Korea",
+    "released": 2021,
+    "genres": ["Thriller", "Survival", "Drama"],
+    "cast": ["Lee Jung-jae", "Park Hae-soo", "HoYeon Jung"],
+    "awards": ["Emmy", "Baeksang Arts Award"]
+  },
+  {
+    "title": "Alice in Borderland",
+    "origin": "Japan",
+    "released": 2020,
+    "genres": ["Sci-Fi", "Thriller", "Survival"],
+    "cast": ["Kento Yamazaki", "Tao Tsuchiya"],
+    "awards": ["Netflix Japan Fan Award"]
+  },
+  {
+    "title": "All of Us Are Dead",
+    "origin": "South Korea",
+    "released": 2022,
+    "genres": ["Horror", "Zombie", "Drama"],
+    "cast": ["Park Ji-hu", "Yoon Chan-young"],
+    "awards": []
+  },
+  {
+    "title": "Kingdom",
+    "origin": "South Korea",
+    "released": 2019,
+    "genres": ["Historical", "Zombie", "Thriller"],
+    "cast": ["Ju Ji-hoon", "Bae Doona"],
+    "awards": ["Asian Academy Creative Awards"]
+  },
+  {
+    "title": "Hellbound",
+    "origin": "South Korea",
+    "released": 2021,
+    "genres": ["Fantasy", "Horror", "Mystery"],
+    "cast": ["Yoo Ah-in", "Kim Hyun-joo"],
+    "awards": []
+  },
+  {
+    "title": "Sweet Home",
+    "origin": "South Korea",
+    "released": 2020,
+    "genres": ["Monster", "Horror", "Apocalypse"],
+    "cast": ["Song Kang", "Lee Jin-wook"],
+    "awards": ["Best Special Effects"]
+  },
+  {
+    "title": "Mercy for None",
+    "origin": "Fictional",
+    "released": 2023,
+    "genres": ["Survival", "Action", "Revenge"],
+    "cast": ["Ryu Seung-ryong", "Han So-hee"],
+    "awards": []
+  }
+]

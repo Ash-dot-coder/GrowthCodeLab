@@ -1,0 +1,55 @@
+// 1. Push a new award to Squid Game ✅
+db.survivalAsianSeries.updateOne(
+  { title: "Squid Game" },
+  { $push: { awards: "Golden Globe" } }
+)
+👉🏻 Push new item at the end of the 'awards' array
+
+
+// 2. Push multiple new genres to Mercy for None using $each ✅
+db.survivalAsianSeries.updateOne(
+  { title: "Mercy for None" },
+  { $push: { genres: { $each: ["Psychological", "Suspense"] } } }
+)
+👉🏻 Push multiple items to 'genres' array
+
+
+// 3. Add a cast member to Kingdom only if they don't already exist ✅
+db.survivalAsianSeries.updateOne(
+  { title: "Kingdom" },
+  { $addToSet: { cast: "Jun Ji-hyun" } }
+)
+👉🏻 Add item only if it doesn't already exist in array
+
+
+// 4. Remove a genre from Sweet Home ✅
+db.survivalAsianSeries.updateOne(
+  { title: "Sweet Home" },
+  { $pull: { genres: "Monster" } }
+)
+👉🏻 Remove specific item from 'genres' array
+
+
+// 5. Pull multiple actors from a cast list (example by ObjectId - use your actual _id) ✅
+db.survivalAsianSeries.updateOne(
+  { _id: ObjectId("653af91d1a8f3b23d45e6c91") },
+  { $pull: { cast: { $in: ["Actor A", "Actor B"] } } }
+)
+👉🏻 Remove multiple items from 'cast' by ID-based targeting
+
+
+// 6. Add a language field as array only to Korean origin show ✅
+db.survivalAsianSeries.updateMany(
+  { origin: "South Korea" },
+  { $set: { languages: ["Korean"] } }
+)
+👉🏻 Set a new array field (not update but helpful for starting array ops)
+
+
+/*
+Note:
+- $push = insert new array value (can be duplicated)
+- $addToSet = insert only if value doesn't already exist
+- $pull = remove item(s) from array
+- $each = multiple push in one operation
+*/
