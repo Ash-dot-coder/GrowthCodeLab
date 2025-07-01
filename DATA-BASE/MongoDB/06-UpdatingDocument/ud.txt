@@ -1,0 +1,3 @@
+db.collectionName.updateOne({ "name": "Movie" }, { $set: { "name": "New Movie" } }) 👉🏻 (Update Movie to "New Movie")
+db.collectionName.updateOne({ "name": "Web Series" }, { $inc: { count: 2 } }) 👉🏻 ($inc (increment) by specified amount)
+db.collectionName.updateMany({ "name": "Documentary", rating: { $eq: 8 } }, { $inc: { count: -3 } }) 👉🏻 ($inc [Negative-Value] (Decrement) by specified amount)
