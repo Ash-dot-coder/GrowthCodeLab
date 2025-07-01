@@ -1,3 +1,5 @@
+Logical Operators: { $and:,$ne: $in:, ..etc }
+
 // 1. { $and: }
 // 🔍 Find all shows from South Korea AND have "Zombie" genre
 db.survivalAsianSeries.find({

@@ -25,7 +25,7 @@ This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/
 2. Run:
    ```bash
    mongosh
-```
+   ```
 
 3. Make sure your working database is selected:
 
