@@ -1,0 +1,77 @@
+// 1. { $and: }
+// 🔍 Find all shows from South Korea AND have "Zombie" genre
+db.survivalAsianSeries.find({
+  $and: [
+    { origin: "South Korea" },
+    { genres: "Zombie" }
+  ]
+})
+
+// 2. { $in: }
+// 🔍 Find all shows with "Zombie" OR "Thriller" genre
+db.survivalAsianSeries.find({
+  genres: { $in: ["Zombie", "Thriller"] }
+})
+// $in = OR between values in the array
+
+// 3. { $nin: }
+// 🔍 Find all shows where the genre is NOT "Horror" or "Apocalypse"
+db.survivalAsianSeries.find({
+  genres: { $nin: ["Horror", "Apocalypse"] }
+})
+// $nin = Not in = Neither Horror nor Apocalypse
+
+// 4: { $or: }
+// 🔍 Find all shows that are either from Japan OR have "Fantasy" as genre
+db.survivalAsianSeries.find({
+  $or: [
+    { origin: "Japan" },
+    { genres: "Fantasy" }
+  ]
+})
+
+// 5. { $and: / $gt: }
+// 🔍 Find shows that are from South Korea AND released after 2020
+db.survivalAsianSeries.find({
+  $and: [
+    { origin: "South Korea" },
+    { released: { $gt: 2020 } }
+  ]
+})
+
+// 6. { $in: }
+// 🔍 Find shows with "Song Kang" OR "Lee Jung-jae" in the cast
+db.survivalAsianSeries.find({
+  cast: { $in: ["Song Kang", "Lee Jung-jae"] }
+})
+
+// 7. { $ne: }
+// 🔍 Find shows that have awards (non-empty array)
+db.survivalAsianSeries.find({
+  awards: { $ne: [] }
+})
+
+
+// 8. 🔍 Find shows that have BOTH "Thriller" AND "Drama" genres
+db.survivalAsianSeries.find({
+  $and: [
+    { genres: "Thriller" },
+    { genres: "Drama" }
+  ]
+})
+// Note: works because MongoDB checks if both values exist inside the array
+
+
+// 9. 🔍 Find all shows that are NOT from South Korea
+db.survivalAsianSeries.find({
+  origin: { $ne: "South Korea" }
+})
+
+
+// 10. 🔍 Find all shows with either "Fantasy" or "Mystery" genre AND released in 2021
+db.survivalAsianSeries.find({
+  $and: [
+    { genres: { $in: ["Fantasy", "Mystery"] } },
+    { released: 2021 }
+  ]
+})
