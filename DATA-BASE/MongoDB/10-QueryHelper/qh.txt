@@ -1,0 +1,12 @@
+// 📦 Fetch all survival series and print them in table format
+const results = db.survivalAsianSeries.find().toArray()
+console.table(results)
+
+
+// 🆘 HELP Commands for Deletion
+
+db.survivalAsianSeries.deleteOne.help()  
+👉 Gives us information about the deleteOne() method
+
+db.survivalAsianSeries.deleteMany.help()  
+👉 Gives us information about the deleteMany() method
