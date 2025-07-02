@@ -147,9 +147,9 @@ Explore the full stack learning repository:
 ## ✍️ Author
 
 **Ayush Kohre**
-📌 Front-End & Full-Stack Web Developer
-🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
-🎓 Learning MongoDB, CRUD, and real-world backend essentials via GrowthCodeLab
+- 📌 Front-End & Full-Stack Web Developer
+- 🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
+- 🎓 Learning MongoDB, CRUD, and real-world backend essentials via GrowthCodeLab
 
 ---
 
