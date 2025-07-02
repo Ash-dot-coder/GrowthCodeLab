@@ -1,6 +1,6 @@
-# 📘 MongoDB Queries & Helpers — `10-QueryHelper[qh.txt]`
+# 📘 MongoDB Queries & Helpers — `10-QueryAssist[qa.txt]`
 
-> A clean and beginner-friendly reference focused on **fetching and deletion operations** in MongoDB, derived from the `10-QueryHelper/qh.txt` file.
+> A clean and beginner-friendly reference focused on **fetching and deletion operations** in MongoDB, derived from the `10-QueryAssist/qa.txt` file.
 
 This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/DATA-BASE/MongoDB) directory under the **GrowthCodeLab** repository.
 
@@ -8,8 +8,8 @@ This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/
 
 ## 📂 File Overview
 
-- **FolderName:** `10-QueryHelper`
-- **FileName:** `qh.txt`
+- **FolderName:** `10-QueryAssist`
+- **FileName:** `qa.txt`
 - **Purpose:** To store useful query patterns and helper commands for fetching and deleting data from collections.
 
 ---
@@ -32,7 +32,7 @@ This file is part of the [`DATA-BASE/MongoDB`](https://github.com/Ash-dot-coder/
    use survivalDB
    ```
 
-4. Start running commands from `qh.txt`.
+4. Start running commands from `qa.txt`.
 
 ✅ **Example:**
 
@@ -104,8 +104,8 @@ This file lives in:
 ```
 DATA-BASE/
 └── MongoDB/
-    └── 10-QueryHelper/
-        ├── qh.txt           ← command source
+    └── 10-QueryAssist/
+        ├── qa.txt           ← command source
         └── README.md        ← documentation
 ```
 
