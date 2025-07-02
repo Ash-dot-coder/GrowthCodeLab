@@ -1,0 +1,37 @@
+// 🗑️ Delete one specific document using filter on title
+db.survivalAsianSeries.deleteOne(
+  { title: "Mercy for None" } // ← this is the filter
+)
+👉 Delete document where title matches "Mercy for None"
+
+
+// 🗑️ Delete all documents using filter on origin
+db.survivalAsianSeries.deleteMany(
+  { origin: "Japan" } // ← this is the filter
+)
+👉 Delete all documents with origin "Japan"
+
+
+// 🗑️ Delete all shows with 'Zombie' in genres array
+db.survivalAsianSeries.deleteMany(
+  { genres: "Zombie" } // ← filter on array field
+)
+👉 Delete documents that include "Zombie" in genres
+
+
+// 🗑️ Delete documents using filter on empty awards array
+db.survivalAsianSeries.deleteMany(
+  { awards: [] } // ← filter to match shows with no awards
+)
+👉 Delete shows that haven’t won any awards
+
+
+// 🗑️ Drop the full collection (no filter needed here)
+db.survivalAsianSeries.drop()
+👉 Allows us to delete the entire collection
+
+
+// 🗑️ Drop the entire database (after switching to it)
+use survivalAsianDB
+db.dropDatabase()
+👉 Deletes your currently active database
