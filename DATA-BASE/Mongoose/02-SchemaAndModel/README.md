@@ -185,7 +185,7 @@ Explore other modules on MongoDB, Mongoose, Express, JavaScript, and Frontend De
 
 ---
 
-## ✍️ Author
+## 👨🏻‍💻 Author
 
 **Ayush Kohre**
 * 📌 MERN Stack Developer | GrowthCodeLab Creator
