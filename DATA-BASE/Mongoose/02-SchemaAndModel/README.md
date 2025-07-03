@@ -167,9 +167,9 @@ npm install
 ```
 
 ### Step 4: Setup your environment file
-* .env
-* PORT=1002
-* DATABASE_URL="mongodb://127.0.0.1:27017/schooldb"
+* **.env:**
+    * `PORT=1002`
+    * `DATABASE_URL="mongodb://127.0.0.1:27017/schooldb"`
 
 ### Step 5: Start the development server
 ```bash
