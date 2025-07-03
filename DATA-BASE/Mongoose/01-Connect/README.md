@@ -125,9 +125,9 @@ npm install
 ```
 
 # Step 4: Create your .env file
-# Example:
-# PORT=1001
-# DATABASE_URL="mongodb://127.0.0.1:27017/test"
+* Example:
+* PORT=1001
+* DATABASE_URL="mongodb://127.0.0.1:27017/test"
 
 # Step 5: Start the server using nodemon
 ```bash
