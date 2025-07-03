@@ -146,9 +146,9 @@ Explore more projects on Express, MongoDB, JavaScript, React, and Full-Stack Cha
 ## ✍️ Author
 
 **Ayush Kohre**
-📌 Full-Stack Web Developer & Creator of GrowthCodeLab
-🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
-🎓 Learning MERN Stack | MongoDB | Mongoose | Real-World Projects
+* 📌 Full-Stack Web Developer & Creator of GrowthCodeLab
+* 🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
+* 🎓 Learning MERN Stack | MongoDB | Mongoose | Real-World Projects
 
 ---
 
