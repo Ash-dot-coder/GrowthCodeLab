@@ -159,7 +159,7 @@ npm install
     * `PORT`
     * `DATABASE_URL`
 
-# Step 5: Run using nodemon
+### Step 5: Run using nodemon
 ```bash
 npx nodemon app.js
 ```
