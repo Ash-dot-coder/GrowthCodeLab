@@ -149,9 +149,9 @@ Explore more Mongoose modules, MongoDB operations, Express setups, and full-stac
 ## 👨🏻‍💻 Author
 
 **Ayush Kohre**
-📌 Full-Stack Web Developer & Creator of GrowthCodeLab
-🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
-🎓 Building MERN Stack Projects | Mongoose | Node.js | MongoDB
+* 📌 Full-Stack Web Developer & Creator of GrowthCodeLab
+* 🔗 GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
+* 🎓 Building MERN Stack Projects | Mongoose | Node.js | MongoDB
 
 ---
 
