@@ -168,10 +168,11 @@ npx nodemon app.js
 
 ## 🔗 Repository Navigation
 
-* 📁 [Node.js Topics](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/NODE)
+* 📁 [Node.js Topics](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/NODE-JS)
+* 📁 [Express.js Topics](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/Express-JS)
 * 📁 [MongoDB Shell Topics](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/DATA-BASE/MongoDB)
-* 📁 [React Practice](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/REACT)
-* 📁 [JavaScript Challenges](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/JS)
+* 📁 [React Practice](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/React%20-%20JS)
+* 📁 [JavaScript Challenges](https://github.com/Ash-dot-coder/GrowthCodeLab/tree/code/JavaScript%20-%20JS)
 
 ---
 
