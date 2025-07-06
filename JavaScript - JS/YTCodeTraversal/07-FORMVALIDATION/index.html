@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+
+                    <!-- Name -->
+                    <p>
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Type Name Here" id="name" required>
+                        <i class="fa-solid "></i>
+                        <span id="nameError"></span>
+                    </p>
+
+                    <!-- Email -->
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="xyz@gmail.com" id="email" required>
+                        <i class="fa-solid "></i>
+                        <span id="emailError"></span>
+                    </p>
+
+                    <!-- Password -->
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="At least 8 characters" id="password" required min="8"
+                            max="12">
+                        <i class="fa-solid "></i>
+                        <span id="passwordError"></span>
+                        <!-- pattern="/^[A-Za-z]*/s{1}[A-Za-z]*$/"  -->
+                    </p>
+                    
+                    <!-- Confirm Password -->
+                    <p>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="confirmPassword" placeholder="It should be same as password" id="confirmPassword" required min="8"
+                            max="12">
+                        <i class="fa-solid "></i>
+                        <span id="confirmPasswordError"></span>
+                        <!-- pattern="/^[A-Za-z]*/s{1}[A-Za-z]*$/"  -->
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Create Account" id="submitBtn">
+                    </p>
+                </form>
+            </main>
+
+            <footer class="signup-footer">
+                <p>Already have an account? <a href="">Login</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
