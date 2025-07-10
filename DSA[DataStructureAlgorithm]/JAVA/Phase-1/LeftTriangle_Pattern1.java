@@ -1,4 +1,4 @@
-// Print Pattern Triangle
+// Print Left Triangle Pattern
 // Run: java <File-Name>
 public class LeftTriangle_Pattern1 {
 
