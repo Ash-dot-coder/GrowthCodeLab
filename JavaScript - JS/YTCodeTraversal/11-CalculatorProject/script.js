@@ -71,7 +71,7 @@ const calculateResult = () => {
       return;
   }
 
-//   result = evaluateResult.toString();
+  //   result = evaluateResult.toString();
   result = evaluateResult;
   operation = "";
   previousOperand = "";
@@ -94,9 +94,15 @@ const clearDisplay = () => {
 
 // Function to Delete Last Character from display
 const deleteLastDigit = () => {
-  if (result === "") return;
-  result = result.slice(0, -1);
-  updateDisplay();
+  if (result === "" && operation !== "") {
+    operation = "";
+    result = previousOperand;
+    previousOperand = "";
+    updateDisplay;
+  } else {
+    result = result.slice(0, -1);
+    updateDisplay();
+  }
 };
 
 decimalBtn.addEventListener("click", () => appendNumber("."));
