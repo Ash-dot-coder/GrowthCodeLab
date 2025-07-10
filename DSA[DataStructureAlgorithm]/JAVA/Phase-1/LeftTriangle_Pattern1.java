@@ -1,7 +1,6 @@
 // Print Pattern Triangle
 // Run: java <File-Name>
-
-public class Triangle_Pattern1 {
+public class LeftTriangle_Pattern1 {
 
     public static void main(String[] args) {
         int n = 6;
