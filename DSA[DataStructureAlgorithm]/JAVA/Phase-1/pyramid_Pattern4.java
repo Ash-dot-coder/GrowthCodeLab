@@ -23,6 +23,8 @@
 //         }
 //     }
 // }
+
+
 // Clearest way
 public class pyramid_Pattern4 {
 
