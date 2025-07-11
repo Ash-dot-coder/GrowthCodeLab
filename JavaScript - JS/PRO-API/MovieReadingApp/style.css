@@ -1,0 +1,178 @@
+/* Google - Font: Installation */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lobster Two", sans-serif;
+    letter-spacing: .13vw;
+    font-weight: 122;
+}
+
+body {
+    background: #ecd09c;
+}
+
+/* Navbar Section */
+nav {
+    background: #232f3e;
+    /* color: #fff; */
+    color: #ecd09c;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+.search-container input,
+button {
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-container input {
+    border-radius: 3px 0 0 3px;
+}
+
+.search-container button {
+    border-radius: 0 3px 3px 0;
+    background: #ecd09c;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.search-container button:hover {
+    background: #e1bc78;
+    color: #232f3e;
+}
+
+/* Main Movie Section */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-block: 38px;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 72vh;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    background: #ffffffc5;
+    box-shadow: 0 0 10px #000;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.movie-poster img {
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5px 0 0 5px;
+}
+
+.movie-info {
+    padding-inline: 15px;
+}
+
+.movie-info h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 12px 0;
+}
+
+.movie-info h2+p {
+    text-align: center;
+}
+
+.movie-info .movie-genre {
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+    overflow-x: auto;
+}
+
+.movie-info .movie-genre p {
+    font-family: "Shadows Into Light", cursive;
+    background: #232f3e;
+    color: #e1bc78;
+    padding: 5px 14px;
+    margin-inline: 5px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    font-weight: 160;
+    letter-spacing: .23vw;
+}
+
+.movie-info p {
+    font-size: 18px;
+    margin-block: 16px;
+    line-height: 24px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 591;
+    letter-spacing: .008vw;
+}
+
+.movie-container.noBackground {
+    background: none;
+    box-shadow: none;
+    align-items: center;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background: #232f3e;
+    color: #e1bc78;
+    padding-block: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+footer p .copy {
+    font-size: 1.81vw;
+    font-weight: 756;
+    
+}
+
+/* Responsive Part */
+@media screen and (max-width: 950px) {
+    .movie-container {
+        flex-direction: column;
+    }
+
+    .movie-poster img {
+        width: 100%;
+        height: fit-content;
+        margin-right: 0;
+    }
+
+    .movie-info {
+        padding-inline: 30px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-container {
+        margin-top: 12px;
+    }
+}
