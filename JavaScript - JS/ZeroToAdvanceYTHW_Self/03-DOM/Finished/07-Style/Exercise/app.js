@@ -12,7 +12,7 @@ const btn = document.querySelector(".btn");
 // 6. Change the color of btn to pink
 
 // Adding Styles To Our Elements
-container.style.height = "400px";
+container.style.height = "450px";
 container.style.background = "teal";
 h1.style.color = "skyblue";
 p.style.fontFamily = "sens-serif";
