@@ -70,6 +70,4 @@ All examples are logged using `console.log()` and `console.table()` for better t
 - GitHub: [@ash-dot-coder](https://github.com/ash-dot-coder)
 - LinkedIn: [Ayush Kohre](https://www.linkedin.com/in/ayushkohre/)
 
-```
-
-```
+---
