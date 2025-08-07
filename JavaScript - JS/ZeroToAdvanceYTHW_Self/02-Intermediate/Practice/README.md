@@ -26,7 +26,7 @@ This repository contains structured JavaScript practice files organized by topic
 
 **Core functions like filter, map, find, some, every, and reduce.**
 
-- [`01_filterAnime.js`](./higherOrderFunctions/01_filterAnime.js) → Filter anime based on rating and genre.
+- [`01_filterAnime.js`](./higherOrderFunctions/01_filterAnime.js) → `.filter()`: Filter anime based on rating and genre.
 - [`02_mapAnime.js`](./higherOrderFunctions/02_mapAnime.js) → Use `.map()` to transform anime data into formatted strings.
 - [`03_findCheck.js`](./higherOrderFunctions/03_findCheck.js) → Use `.find()` to check anime data.
 - [`04_everyCheck.js`](./higherOrderFunctions/04_everyCheck.js) → Use `.every()` to check anime data.
