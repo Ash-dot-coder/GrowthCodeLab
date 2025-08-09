@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(28, 28, 35);
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    text-shadow: 0 3px 4px #1d1d1d;
+    font-weight: 783;
+    letter-spacing: .27vw;
+    text-transform: uppercase;
+    border: 2px solid #deb887;
+    border-radius: .3vw .6vw;
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    /* text-transform: capitalize; */
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
