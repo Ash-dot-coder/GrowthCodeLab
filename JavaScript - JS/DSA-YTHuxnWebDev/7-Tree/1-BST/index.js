@@ -1,3 +1,5 @@
+// BST: Binary Search Tree
+
 class Node {
   constructor(value) {
     this.value = value;
