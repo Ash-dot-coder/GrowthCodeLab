@@ -9,6 +9,7 @@ function countDown(number) {
   countDown(number - 1);
 }
 
+console.log("Example 1: ");
 countDown(7);
 
 // ------------ Example 2
@@ -21,4 +22,4 @@ function factorial(num) {
   //   return num === 0 ? 1 : num * factorial(num - 1);
 }
 
-console.log(factorial(8));
+console.log("Example 2: ", factorial(8));
