@@ -1,6 +1,6 @@
 # How to Install and Setup React with Vite
 
-React can be set up in different ways, but one of the fastest and most modern methods is using **Vite**. Follow the steps below to get your React project up and running.
+- React can be set up in different ways, but one of the fastest and most modern methods is using **Vite**. Follow the steps below to get your React project up and running.
 
 ---
 
