@@ -1,0 +1,37 @@
+{
+    "cards":[
+        {
+            "id": 1,
+            "title": "HTML Base",
+            "description": "Level-up the HTML Base",
+            "img": "http://localhost:300/assets/html.png",
+            "price": 37
+        },
+
+        {
+            "id": 2,
+            "title": "CSS Base",
+            "description": "Level-up the CSS Base",
+            "img": "http://localhost:300/assets/css.png",
+            "price": 78
+        },
+
+        {
+            "id": 3,
+            "title": "JS Base",
+            "description": "Level-up the JS Base",
+            "img": "http://localhost:300/assets/js.png",
+            "price": 118
+        },
+
+        {
+            "id": 4,
+            "title": "REACT Base",
+            "description": "Level-up the REACT Base",
+            "img": "http://localhost:300/assets/react.png",
+            "price": 278
+        }
+
+    ]
+}
+
