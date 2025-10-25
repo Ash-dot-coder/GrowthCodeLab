@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #474f5b;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #main {} */
+
+#btn {
+    font-size: 3rem;
+    padding: 1rem;
+    background: indianred;
+    border-radius: .8em;
+    letter-spacing: .2em;
+    font-weight: 738;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#btn:hover {
+    background: rgb(116, 59, 59);
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}

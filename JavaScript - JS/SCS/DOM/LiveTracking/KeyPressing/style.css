@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #524c2a;
+    color: rgb(125, 222, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#keys {
+    display: flex;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 3rem;
+}
+
+h3 {
+    color: rgb(199, 171, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 789;
+}
